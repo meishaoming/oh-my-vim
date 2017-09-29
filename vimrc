@@ -16,24 +16,16 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 "Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
-"Plugin 'L9'
-"Plugin 'lua_omni'
-"Plugin 'OmniCppComplete'
-"Plugin 'AutoComplPop'
-"Plugin 'clang-complete'
 Plugin 'molokai'
 Plugin 'ctrlp.vim'
 Plugin 'ag.vim'
 Plugin 'Tagbar'
-"Plugin 'ctags.vim'
 Plugin 'cscope.vim'
-"Plugin 'c.vim'
-
 
 " Git plugin not hosted on GitHub
 "Plugin 'git://git.wincent.com/command-t.git'
