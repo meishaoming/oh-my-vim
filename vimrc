@@ -55,7 +55,7 @@ filetype plugin indent on    " required
 
 set shell=/bin/bash
 colorscheme molokai	" 背景颜色
-set guifont=Monaco:h18	"gvim字体设置
+set guifont=Monaco:h16	"gvim字体设置
 
 map <C-h> :tabp<CR>
 map <C-l> :tabn<CR>
