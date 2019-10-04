@@ -1,24 +1,11 @@
-# mydotvim
-
-My "~/.vim/" for vim config.
-
-vundle:
-
- - ycm
- - ctrlp
- - molokai - theme
-
-indent/cpp.vim - google c++ code style
+# oh-my-vim
 
 
-### Install
-
+### 安装
 
 ```
-git clone git@github.com:meishaoming/mydotvim.git ~/.vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone --recursive git@github.com:meishaoming/oh-my-vim.git ~/.vim
 ```
 
 Launch vim and run `:PluginInstall`
-
 
