@@ -73,15 +73,15 @@ set completeopt-=preview
 syntax enable
 
 " c 排版 http://vimcdoc.sourceforge.net/doc/indent.html
-" set cindent
-" set cinoptions+=(0
-" set cinoptions+=:0
-" set cinoptions+=t0
-" set cinoptions+=l1
-" set shiftwidth=4
-" set tabstop=4
-" set expandtab
-" set smartindent
+set cindent
+set cinoptions+=(0
+set cinoptions+=:0
+set cinoptions+=t0
+set cinoptions+=l1
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set smartindent
 
 "光标自动到上次退出该文件时所在位置
 if has("autocmd")
@@ -102,7 +102,7 @@ let g:ctrlp_by_filename = 1	"设置默认按文件名搜索
 let g:ctrlp_switch_buffer = 'Et' "尝试打开一个文件时，如果已在某个窗口打开，则直接跳到该 buffer，而不是新打开一个实例
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$',
-  \ 'file': '\.exe$\|\.so$\|\.o$'
+  \ 'file': '\v\.(exe|so|dll|d|o)$',
   \ }
 
 
