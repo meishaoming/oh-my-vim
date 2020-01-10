@@ -101,7 +101,7 @@ endif
 let g:ctrlp_by_filename = 1	"设置默认按文件名搜索
 let g:ctrlp_switch_buffer = 'Et' "尝试打开一个文件时，如果已在某个窗口打开，则直接跳到该 buffer，而不是新打开一个实例
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$',
+  \ 'dir': '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|build$',
   \ 'file': '\v\.(exe|so|dll|d|o)$',
   \ }
 
