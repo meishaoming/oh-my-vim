@@ -80,8 +80,10 @@ set cinoptions+=t0
 set cinoptions+=l1
 set shiftwidth=4
 set tabstop=4
-set expandtab
+set noexpandtab
 set smartindent
+
+autocmd FileType java setlocal shiftwidth=4 softtabstop=4 expandtab
 
 "光标自动到上次退出该文件时所在位置
 if has("autocmd")
@@ -145,7 +147,7 @@ let g:AutoPairsFlyMode = 0
 " cscope
 autocmd FileType * set cscopequickfix=s-,c-,d-,i-,t-,e-,f-
 if has("cscope")
-	set cscopeprg=/usr/local/bin/cscope
+	set cscopeprg=/usr/bin/cscope
 	set cscopetagorder=0
 	set cscopetag
 	set nocsverb
